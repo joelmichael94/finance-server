@@ -17,7 +17,7 @@ app.use(express.static("public"));
 app.use("/users", require("./api/users"));
 app.use("/transactions", require("./api/transactions"));
 
-app.listen(PORT, () => console.log("Server is rolling on PORT" + PORT));
+// app.listen(PORT, () => console.log("Server is rolling on PORT" + PORT));
 mongoose.connection.once("open", () =>
     console.log("You are connected to MongoDB")
 );
