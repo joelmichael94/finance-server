@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 mongoose.connect(
-    `"mongodb+srv://quanshenjoelmichael21s:joelmichael94@jms-fs.ofi9vbd.mongodb.net/Finance?retryWrites=true&w=majority"`
+    `mongodb+srv://quanshenjoelmichael21s:joelmichael94@jms-fs.ofi9vbd.mongodb.net/Finance?retryWrites=true&w=majority`
 );
 
 require("dotenv").config();
