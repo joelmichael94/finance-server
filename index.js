@@ -15,7 +15,7 @@ app.use(
         origin: "*",
     })
 );
-// app.use(express.static("public"));
+app.use(express.static("public"));
 
 // const { PORT, DB_HOST, DB_PORT, DB_NAME } = process.env;
 
